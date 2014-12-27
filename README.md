@@ -1,4 +1,4 @@
-consumerloss
+consumer-lossaversion
 ============
 
 R programs accompanying Consumer loss and reference dependence paper.
