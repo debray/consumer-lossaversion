@@ -14,14 +14,20 @@ The data has to be "compacted" / aggregated at the daily level to make analysis 
 Pre-processing:
 DailySales.R - collect aggregated statistics by day of total quantity, price and discounts.
 
+ Create_ExperienceEffect_Subsets.R - divide the dataset into groups of customers. The top "frac" e.g. 0.25 of consumers by total sales vs the bottom 0.75. 
+
 Helper functions:
 SetVariables.R
+
 Sku_Basket.R
+
 Sku_Correlations.R
 
 Graphing functions:
 plotDaiySales.R - plot daily sales data for two SKUs between start and end days.
+
 Sku_Demand.R - plot by SKU of demand level, price and discount
+
 Sku_Temporal.R - plot of demand, price and discount averaged at each point over a "smoothing window".
 
 Misc:
@@ -30,6 +36,10 @@ theory to loss aversion.
 
 Simulation
 ============
+
+Simulate.Structural.R - simulation of the loss-aversion and reference dependence effect on an item on sale, and its substitute which is not on sale.
+
+Simulate.Structural.Population.R - another way of looking at the simulation effect where the loss aversion parameter, lambda, is drawn from a population sample.
 
 Estimation of Lambda
 ============
