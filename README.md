@@ -43,3 +43,9 @@ Simulate.Structural.Population.R - another way of looking at the simulation effe
 
 Estimation of Lambda
 ============
+
+utility.R - specifies the reference dependent loss aversion utility function. The utility is asymmetric, only when (P - Pref) is positive, the consumer experiences disutility.
+
+Likelihood.Refdep.R - maximum likelihood estimate of lambda for a pair of SKUs.
+
+LambdaEstimation.R - estimate lambda over a list of pair of SKUs. Generate random pairs as control group if not using substitute list.
